@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NZ App</string>
+    <string name="aeonium_haworthii">Aeonium Haworthii</string>
+    <string name="agapanthus_peter_pan">Agapanthus Peter Pan</string>
+    <string name="buxus_sempervirens">Buxus Sempervirens</string>
+    <string name="chamaecyparis_lawsoniana_ellwoodii_gold">Chamaecyparis Lawsoniana Ellwoodii Gold</string>
+    <string name="parthenocissus_guinquefolia_virginia_creeper">Parthenocissus Guinquefolia Virginia Creeper</string>
+    <string name="philodendron_xanadu">Philodendron Xanadu</string>
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDFD2"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/rplant1"
+            android:layout_width="120sp"
+            android:layout_height="250sp"
+            android:layout_margin="10sp"
+            android:background="#4CAF50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/plant1"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/aeonium_haworthii"
+
+                />
+
+            <TextView
+                android:id="@+id/plantText1"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_below="@+id/plant1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/aeonium_haworthii" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plantText1"
+                android:layout_centerHorizontal="true"
+                android:text="add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rplant2"
+            android:layout_width="120sp"
+            android:layout_height="250sp"
+            android:layout_margin="10sp"
+            app:layout_constraintStart_toEndOf="@+id/rplant1"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/plant2"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/agapanthus_peter_pan"
+
+                />
+
+            <TextView
+                android:id="@+id/plantText2"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_below="@+id/plant2"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/agapanthus_peter_pan" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plantText2"
+                android:layout_centerHorizontal="true"
+                android:text="add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rplant3"
+            android:layout_width="120sp"
+            android:layout_height="250sp"
+            android:layout_margin="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rplant2"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/plant3"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/buxus_sempervirens"
+
+                />
+
+            <TextView
+                android:id="@+id/plantText3"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_below="@+id/plant3"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/buxus_sempervirens" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plantText3"
+                android:layout_centerHorizontal="true"
+                android:text="add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rplant4"
+            android:layout_width="120sp"
+            android:layout_height="250sp"
+            android:layout_margin="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rplant1">
+
+
+            <ImageView
+                android:id="@+id/plant4"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/chamaecyparis_lawsoniana_ellwoodii_gold"
+
+                />
+
+            <TextView
+                android:id="@+id/plantText4"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_below="@+id/plant4"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/chamaecyparis_lawsoniana_ellwoodii_gold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plantText4"
+                android:layout_centerHorizontal="true"
+                android:text="add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rplant5"
+            android:layout_width="120sp"
+            android:layout_height="250sp"
+            android:layout_margin="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/rplant4"
+            app:layout_constraintTop_toBottomOf="@id/rplant2">
+
+
+            <ImageView
+                android:id="@+id/plant5"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/parthenocissus_quinquefolia_virginia_creeper"
+
+                />
+
+            <TextView
+                android:id="@+id/plantText5"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_below="@+id/plant5"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/parthenocissus_guinquefolia_virginia_creeper" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plantText5"
+                android:layout_centerHorizontal="true"
+                android:text="add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rplant6"
+            android:layout_width="120sp"
+            android:layout_height="250sp"
+            android:layout_margin="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/rplant5"
+            app:layout_constraintTop_toBottomOf="@id/rplant3">
+
+
+            <ImageView
+                android:id="@+id/plant6"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/philodendron_xanadu"
+
+                />
+
+            <TextView
+                android:id="@+id/plantText6"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_below="@+id/plant6"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/philodendron_xanadu" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plantText6"
+                android:layout_centerHorizontal="true"
+                android:text="add" />
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
